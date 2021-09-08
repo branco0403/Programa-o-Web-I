@@ -1,1 +1,64 @@
-
+body {
+    background: darkgreen;
+    max-width: 500px;
+    padding: 25px;
+    margin: auto;
+}
+#raphaelForm {
+    background: #33ec33;
+    padding: 20px;
+    border: 1px solid #dbdbdb; 
+}
+#raphaelForm div {
+    margin-top: 5px;
+    font: 400 15px Arial, Verdana, Helvetica;
+    color: rgb(50, 205, 50);
+}
+#raphaelForm label {
+    background: #32CD32;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 3px;
+}
+#raphaelForm input {
+    background: rgb(255, 248, 220);
+    font: 400 15px Arial, Verdana, Helvetica;
+    color: rgb(105, 105, 105);
+    padding: 5px 5px;
+    line-height: 28px;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+}
+#raphaelForm input:hover {
+    border: 1px dashed #000;
+}
+#raphaelForm input:focus {
+    outline: none !important;
+    box-shadow: 0 0 8px rgb(158, 158, 158);
+}
+#raphaelForm textarea {
+    background: rgb(250, 250, 250);
+    font: 400 15px Arial, Verdana, Helvetica;
+    color: rgb(124, 124, 124);
+    padding: 5px 5px;
+    line-height: 28px;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+}
+#raphaelForm textarea:hover {
+    border: 1px dashed #000;
+}
+#raphaelForm textarea:focus {
+    outline: none !important;
+    box-shadow: 0 0 8px rgb(158, 158, 158);
+}
+#raphaelForm input[type="submit"] {
+    background: rgb(34, 139, 34);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#raphaelForm input[type="reset"] {
+    background: rgb(34, 139, 34);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
