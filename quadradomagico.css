@@ -12,7 +12,6 @@ td {
 }
 
 input {
-    border: none;
     width: 3em;
     height: 3em;
     text-align: center;
@@ -24,13 +23,22 @@ input {
 .somaerradadiagonalsecundaria input, 
 .somaerradadiagonalprincipal input {
     color: orange;
+    border: solid;
+    border-color: orange;
+    border-width: 10px;
 }
 
 .foradoslimites input,
 .numerosrepetidos input {
     color: red;
+    border: solid;
+    border-color: red;
+    border-width: 10px;
 }
 
 .vitoria tr td input {
     color: green;
+    border: solid;
+    border-color: green;
+    border-width: 10px;
 }
