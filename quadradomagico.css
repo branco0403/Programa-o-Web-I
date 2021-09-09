@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: solid 1px;
+}
+
+input {
+    border: none;
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    font-size: larger;
+}
+
+.somaerradacoluna input, 
+.somaerradalinha input, 
+.somaerradadiagonalsecundaria input, 
+.somaerradadiagonalprincipal input {
+    color: orange;
+}
+
+.foradoslimites input,
+.numerosrepetidos input {
+    color: red;
+}
+
+.vitoria tr td input {
+    color: green;
+}
